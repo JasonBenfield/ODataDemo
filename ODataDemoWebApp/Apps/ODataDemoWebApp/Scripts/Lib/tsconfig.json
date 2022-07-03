@@ -1,0 +1,33 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [ "es2015", "dom" ],
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "ES6",
+    "importHelpers": true,
+    "baseUrl": ".",
+    "typeRoots": [
+      "../../node_modules/@types"
+    ],
+    "paths": {
+      "@jasonbenfield/sharedwebapp/*": [
+        "../../../../../../SharedWebApp/Apps/SharedWebApp/Scripts/Lib/*"
+      ]
+    }
+  },
+  "include": [
+    "./**/*.ts",
+    "../../../../../../SharedWebApp/Apps/SharedWebApp/Scripts/Lib/**/*.d.ts"
+  ],
+  "exclude": [
+    "Imports",
+    "node_modules",
+    "wwwroot"
+  ]
+}

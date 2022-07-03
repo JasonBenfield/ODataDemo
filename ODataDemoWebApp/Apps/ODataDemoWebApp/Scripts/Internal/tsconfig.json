@@ -1,0 +1,35 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [ "es2018", "dom" ],
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "ES6",
+    "importHelpers": true,
+    "baseUrl": ".",
+    "typeRoots": [],
+    "paths": {
+      "@jasonbenfield/sharedwebapp/*": [
+        "../../../../../../SharedWebApp/Apps/SharedWebApp/Scripts/Lib/*"
+      ],
+      "@lib/*": [
+        "../Lib/*"
+      ]
+    }
+  },
+  "include": [
+    "./**/*.ts",
+    "../Lib/**/*.d.ts",
+    "../../../../../../SharedWebApp/Apps/SharedWebApp/Scripts/Lib/**/*.d.ts"
+  ],
+  "exclude": [
+    "Imports",
+    "node_modules",
+    "wwwroot"
+  ]
+}

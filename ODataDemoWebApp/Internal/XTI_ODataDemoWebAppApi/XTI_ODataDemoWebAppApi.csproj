@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6" />
+		<PackageReference Include="XTI_App.Extensions" Version="1.8.22-dev220702160453837" />
+		<PackageReference Include="XTI_ODataQuery.Api" Version="1.8.22-dev220702160453837" />
+		<PackageReference Include="XTI_WebApp.Api" Version="1.8.22-dev220702160453837" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\Internal\XTI_AdventureWorksDB\XTI_AdventureWorksDB.csproj" />
+	</ItemGroup>
+
+</Project>
